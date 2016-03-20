@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>hthebmlvyznmry@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Uğur "vigo" Özyılmazel</string>
+	<key>description</key>
+	<string>New shiny bundle for X.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>03FADB5C-18EB-4F66-B308-F6D9486CC36D</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>03FADB5C-18EB-4F66-B308-F6D9486CC36D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>6A819D62-F5D1-458A-B6A5-127C930095A1</string>
+					<string>E81E72C0-E585-422A-BEC2-6B26724ED9D8</string>
+					<string>09065554-A503-4FD2-B59F-EE625AE35602</string>
+					<string>28880A7F-4FF3-4AF0-81DE-2AF99E769626</string>
+					<string>64703F03-6D15-4FBB-842A-3DF02672F448</string>
+				</array>
+				<key>name</key>
+				<string>Grid</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>TextMate2 Bootstrap3</string>
+	<key>ordering</key>
+	<array>
+		<string>24424420-FEBC-4B86-8F20-BE9F0745FA78</string>
+		<string>6A819D62-F5D1-458A-B6A5-127C930095A1</string>
+		<string>E81E72C0-E585-422A-BEC2-6B26724ED9D8</string>
+		<string>09065554-A503-4FD2-B59F-EE625AE35602</string>
+		<string>28880A7F-4FF3-4AF0-81DE-2AF99E769626</string>
+		<string>64703F03-6D15-4FBB-842A-3DF02672F448</string>
+	</array>
+	<key>uuid</key>
+	<string>C9BC3AF4-2514-4E1F-AEDC-35EB51E640E6</string>
+</dict>
+</plist>

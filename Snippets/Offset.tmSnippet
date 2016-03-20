@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>col-${1|xs,sm,md,lg|}-offset-${2|1,2,3,4,5,6,7,8,9,10,11,12|}</string>
+	<key>name</key>
+	<string>Offset</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>offset</string>
+	<key>uuid</key>
+	<string>64703F03-6D15-4FBB-842A-3DF02672F448</string>
+</dict>
+</plist>
