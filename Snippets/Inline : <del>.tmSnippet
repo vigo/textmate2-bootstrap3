@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;div class="${1|container,container-fluid|}"&gt;
-	$0
-&lt;/div&gt;</string>
+	<string>${0:${TM_SELECTED_TEXT/\A&lt;del&gt;(.*)&lt;\/del&gt;\z|.*/(?1:$1:&lt;del&gt;$0&lt;/del&gt;)/m}}</string>
+	<key>keyEquivalent</key>
+	<string>$@i</string>
 	<key>name</key>
-	<string>Container</string>
+	<string>Inline : &lt;del&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>con</string>
+	<string>mark</string>
 	<key>uuid</key>
-	<string>6A819D62-F5D1-458A-B6A5-127C930095A1</string>
+	<string>58A55B70-0E31-4136-B69C-05CF58AC9E12</string>
 </dict>
 </plist>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;div class="${1|container,container-fluid|}"&gt;
-	$0
-&lt;/div&gt;</string>
+	<string>&lt;h${1|1,2,3,4,5,6|}&gt;${2:Text}${3:&lt;small&gt;$3&lt;/small&gt;}&lt;/h${1}&gt;$0</string>
 	<key>name</key>
-	<string>Container</string>
+	<string>Headings</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>con</string>
+	<string>h</string>
 	<key>uuid</key>
-	<string>6A819D62-F5D1-458A-B6A5-127C930095A1</string>
+	<string>F7CABF04-43E3-462F-9E65-8D2A9A5B2480</string>
 </dict>
 </plist>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;div class="${1|container,container-fluid|}"&gt;
-	$0
-&lt;/div&gt;</string>
+	<string>class="text-${1|left,center,right,justify,nowrap,lowercase,uppercase,capitalize|}"$0</string>
 	<key>name</key>
-	<string>Container</string>
+	<string>Text Classes as class</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>con</string>
+	<string>.txt</string>
 	<key>uuid</key>
-	<string>6A819D62-F5D1-458A-B6A5-127C930095A1</string>
+	<string>BC2A2790-51EC-4419-8812-061A1D5F16E4</string>
 </dict>
 </plist>
