@@ -79,6 +79,10 @@ git clone https://github.com/vigo/textmate2-bootstrap3.git textmate2-bootstrap3.
 
 ## Change Log
 
+**2016-09-24**
+
+* `del`, `small`, `kbd` added.
+
 **2016-03-25**
 
 * Alignment and Transformation classes added.

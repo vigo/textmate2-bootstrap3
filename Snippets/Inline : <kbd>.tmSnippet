@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${0:${TM_SELECTED_TEXT/\A&lt;del&gt;(.*)&lt;\/del&gt;\z|.*/(?1:$1:&lt;del&gt;$0&lt;/del&gt;)/m}}</string>
+	<string>${0:${TM_SELECTED_TEXT/\A&lt;kbd&gt;(.*)&lt;\/kbd&gt;\z|.*/(?1:$1:&lt;kbd&gt;$0&lt;/kbd&gt;)/m}}</string>
 	<key>keyEquivalent</key>
 	<string>$@i</string>
 	<key>name</key>
-	<string>Inline : &lt;del&gt;</string>
+	<string>Inline : &lt;kbd&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>del</string>
+	<string>kbd</string>
 	<key>uuid</key>
-	<string>58A55B70-0E31-4136-B69C-05CF58AC9E12</string>
+	<string>44D8464C-319D-4FE5-879B-EBF33995FC1C</string>
 </dict>
 </plist>
