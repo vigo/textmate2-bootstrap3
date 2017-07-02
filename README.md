@@ -1,18 +1,27 @@
+![Version](https://img.shields.io/badge/version-1.1.1-orange.svg)
+![Plaftorm](https://img.shields.io/badge/platform-TextMate-blue.svg)
+
+
 # Bootstrap 3 Helpers for TextMate2
+
+Un-official Bootstrap 3 html helper bundle for you with ❤️
+
 
 ## Installation
 
 ```bash
-cd "~/Library/Application Support/Avian/Bundles/"
-# if you don’t have Avian/Bundles folder, you need to create it!
+cd ~/Library/Application\ Support/TextMate/Bundles/
+git clone https://github.com/vigo/textmate2-bootstrap3.git Bootstrap3.tmbundle
 
-git clone https://github.com/vigo/textmate2-bootstrap3.git textmate2-bootstrap3.tmbundle
-# reload your TextMate2
+# Restart your TextMate2
 ```
+
 
 ## Available Items
 
-`html5`: Creates base template + adds `Merriweather` font from Google.
+`html5` + <kbd>⇥</kbd>
+
+Creates base template + adds `Merriweather` font from Google.
 
 ```html
 <!DOCTYPE html>
@@ -22,18 +31,16 @@ git clone https://github.com/vigo/textmate2-bootstrap3.git textmate2-bootstrap3.
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hello World</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <![endif]-->        
         <style type="text/css" media="screen">
             @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
-            body {
-                font-family: 'Merriweather', serif;
-            }
+            body { font-family: 'Merriweather', serif; }
         </style>
     </head>
     <body>
@@ -42,67 +49,47 @@ git clone https://github.com/vigo/textmate2-bootstrap3.git textmate2-bootstrap3.
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1>Hello World</h1>
+                        <h1>${0:Hello World}</h1>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
 ```
 
-***
+---
 
 ### Grid
 
-* `con`: Creates `container` | `container-fluid`
-* `blo`: Creates `div` with class `block`
-* `con`: Creates `div` with class `container`
-* `row`: Creates `div` with class `row`
-* `col`: BS’s cols...
-* `cell`: Creates additional col information.
-* `offset`: Column offsets...
-* `order`: Helps for `pull` and `push`
+* `con` + <kbd>⇥</kbd>: Creates `container` | `container-fluid`
+* `blo` + <kbd>⇥</kbd>: Creates `div` with class `block`
+* `row` + <kbd>⇥</kbd>: Creates `div` with class `row`
+* `col` + <kbd>⇥</kbd>: Bootstrap’s columns
+* `cell` + <kbd>⇥</kbd>: Creates additional column information.
+* `offset` + <kbd>⇥</kbd>: Column offsets...
+* `order` + <kbd>⇥</kbd>: Helps for `pull` and `push` columns.
 
-***
+---
 
 ### Typography
 
-* `h`: Creates `<h1>` to `<h6>` + `<small>` option.
-* `.h`: Creates `class="h1"` to `class="h6"`
-* `cmd+shift+i`: Inlines : `<del>`, `<mark>`, `<small>`, `<ins>`, `<u>`
-* `lead`: Paragraph with `class="lead"`
-* `.lead`: Only `class="lead"`
+* `h` + <kbd>⇥</kbd>: Creates `<h1>` to `<h6>` + `<small>` option.
+* `.h` + <kbd>⇥</kbd>: Creates `class="h1"` to `class="h6"`
+* <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>i</kbd>: Inlines : `<del>`, `<mark>`, `<small>`, `<ins>`, `<u>`
+* `lead` + <kbd>⇥</kbd>: Paragraph with `class="lead"`
+* `.lead` + <kbd>⇥</kbd>: Only `class="lead"`
 
-## Change Log
-
-**2016-09-24**
-
-* `del`, `small`, `kbd` added.
-
-**2016-03-25**
-
-* Alignment and Transformation classes added.
-* `h` and `.h` added.
-* Inline elements added `cmd+shift+i`
-* `html5` added.
-* `con` added.
-
-**2016-03-20**
-
-* Initial release.
-* Grid helpers added.
-
-***
+---
 
 ## Contributers
 
 * [Uğur "vigo" Özyılmazel](https://github.com/vigo) - Creator, maintainer
 
-***
+---
 
 ## Contribute
 
@@ -112,8 +99,7 @@ git clone https://github.com/vigo/textmate2-bootstrap3.git textmate2-bootstrap3.
 4. `push` your `branch` (`git push origin my-features`)
 5. Than create a new **Pull Request**!
 
-
-***
+---
 
 ## License
 
